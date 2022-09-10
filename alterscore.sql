@@ -1,0 +1,2 @@
+ALTER TABLE score CHANGE event_id test_id
+INT UNSIGNED NOT NULL;

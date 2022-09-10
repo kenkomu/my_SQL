@@ -1,0 +1,6 @@
+CREATE TABLE test(
+    date DATE NOT NULL,
+    type ENUM('T', 'Q') NOT NULL,
+    class_id INT UNSIGNED NOT NULL,
+    test_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY
+);
